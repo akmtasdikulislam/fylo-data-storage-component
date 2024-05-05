@@ -23,7 +23,39 @@
     <title>Frontend Mentor | Fylo data storage component</title>
   </head>
   <body>
-    You’ve used 815 GB of your storage 185 GB Left 0 GB 1000 GB
+    <main class="container">
+      <div class="logo-action_container">
+        <img src="./images/logo.svg" alt="" class="logo" />
+        <div class="action_group">
+          <div class="action">
+            <img src="./images/icon-document.svg" alt="" />
+          </div>
+          <div class="action">
+            <img src="./images/icon-folder.svg" alt="" />
+          </div>
+          <div class="action">
+            <img src="./images/icon-upload.svg" alt="" />
+          </div>
+        </div>
+      </div>
+      <div class="progress-bar_container">
+        <div class="storage_remaining">
+          <span class="storage_remaining_amount">185</span> GB Left
+        </div>
+        <p>You’ve used <span class="bold">815 GB</span> of your storage</p>
+        <div class="progress-bar">
+          <div class="progress-bar-bg">
+            <div class="progress-bar-line">
+              <div class="progress-indicator-circle"></div>
+            </div>
+          </div>
+        </div>
+        <div class="storage_indicator">
+          <p class="initial_storage">0 GB</p>
+          <p class="total_storage">1000 GB</p>
+        </div>
+      </div>
+    </main>
 
     <div class="attribution">
       Challenge by
